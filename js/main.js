@@ -47,14 +47,13 @@ function initMobileNavigation() {
     }
 }
 
-// Initialize the page - TEMPORARILY DISABLED FOR DEBUGGING
+// Initialize the page
 document.addEventListener('DOMContentLoaded', () => {
-    // Temporarily disabling all JavaScript to test navigation
-    console.log('JavaScript loaded but initialization disabled for debugging navigation');
+    console.log('JavaScript initialized');
     
-    // Only enable mobile navigation for now
+    // Enable mobile navigation
     initMobileNavigation();
     
-    // Smooth scrolling disabled to prevent navigation interference
+    // Smooth scrolling disabled for multi-page architecture
     // initSmoothScrolling();
 });

@@ -98,6 +98,8 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
 }
 
 .bar {
